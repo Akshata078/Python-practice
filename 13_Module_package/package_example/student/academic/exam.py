@@ -1,0 +1,3 @@
+
+def exam():
+    print("exam")

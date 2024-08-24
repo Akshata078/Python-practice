@@ -1,0 +1,8 @@
+this is a new line
+This is a new line
+This is a new line
+This is a new line
+
+two types of files - 
+ 1. Text files : .txt. .docx. .log. etc
+ 2. Binary files : .mp4. .mov. .png. .jpeg. etc

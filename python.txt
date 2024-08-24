@@ -1,0 +1,140 @@
+check version => py --version
+
+what is python ?
+=> Python is the most popular high-level programming language.
+
+Python is a case sensitive language (means capital letter aur small letter ye alag alag variable consider hoga)
+
+why python ?
+=>  1. Python is a biginner friendly.
+    2. Career opportunities and salary
+    3. python is versatile(harr jagah use hota hai.)
+    4. large and active community
+
+command promt  or terminal in vs code - 
+command : ctrl + z - isase python se bahar aa jayenge aur command line pr aa jayenge
+command : py  - python launch ho jayega
+
+print() - koi bhi chij terminal pr print karwate hai.
+
+
+comments in python :- 
+line ke start hone se pehle # (hash) ye use krenge
+
+ use of comment - for explaining our code
+                - used while testing (ex. agr hum kisi project pr kaam kr rhe hai aur koi line of code hame error de rha hai, but hum usko hata nhi chahte, toh uss time hum comment ka use kr sakte hai.)
+
+
+Variables :- It is a container to store a value or data.
+if we want to store a number in a variable - ex. x = 10
+if we want to store a string in a variable - ex. x = 'Akshata'
+
+
+Data types in python : 
+
+1. Integer - 1, 2, 3 ...... (not decimal no.)
+2.  Float - 0.1, 3.5.... (decimal no.)
+3. String - 'akshata', 'khadse' (string hamesha double quotes ya single quotes me likhenge)
+4. Boolean - True or False (True ya False hai isme jo first letter rahega vo hamesha capital likhna hai, true me pehla letter captal T hona chahiye, aur false me pehla letter capital F hona chahiye) , aur ye hum bina quotation ke likhenge aur first letter capital hoga uske alawa sab small honge
+
+
+variable naming rules :
+1. variable name can contain number, letters, underscore
+2. variable name can not be start with number
+3. We can not use the reserved keyword for variable naming (ex. False, True, and, for, if, in, etc)
+4. While naming the variabe it should not contain spaces( ex. pass exam - this is not valid)
+
+whenever we write a variabe name it should be meaningful. 
+
+In python for variable naming, we use snake case (two wonds ke bich me underscore use krte hai) - ex. pass_exam
+
+String -
+
+# how we can write a string in python ? 1. single quotes  2. double quotes  3. tripple quotes
+# 1. single quotes : ''
+# 2. double quotes  : ""
+# 3. tripple quotes :  ''' ''' (agr hame ek line chod ke hamara text lekhna hai, aur isme jo bhi likhenge vo as it is print hoga without ignoring spaces and next line) this can be used in while writting email
+
+
+Functions used in string  - 
+
+1. len() - for string length (it gives us the length of the string)
+isme space bhi count hoga
+
+ex. # name = 'Akshata Khadse'
+# print(len(name))
+
+
+2. slice() : extracts a part of a string
+ex. - greet = 'hello world'
+      print(greet[2 : 5])
+
+
+randint(1, 4) :- generates the random number between 1 and 4
+
+**************
+
+Difference between tuples and list=>
+list : we can change the list
+     : It is mutable (we can change)
+tuples : we cannot change it
+       : It is immutable (we cannot change)
+
+
+*****8***88888****8*88
+
+file I/O :-
+
+
+volatile : jispr data persist nhi krta hai (RAM me data store hota hai, jo temorary hota hai. agr hum hamari system firse restart krenge toh vo jo data tha hamara vo delete ho jayega automatically)
+vo memory jisme temporarily program run hote hai 
+
+non volatile : data ko store krne ke liye hum hamare data ko file me likhenge
+
+
+two types of files - 
+ 1. Text files : .txt, .docx, .log, etc
+ 2. Binary files : .mp4, .mov, .png, .jpeg, etc
+
+open() - ye python me ek built in function hai jo files ko open krne ke liye kaam aata hai.
+ye two parameters leta hai - 1. filename  2. mode
+by default mode - 'r' (i.e. read)
+
+read() - files ko read krne ke kaam aata hai
+close() - file ko close krne ke liye
+
+
+readline() - ek ek krke hamare file ki lines ko read krta hai.
+readlines() - ye hame lines ki list return krta hai. 
+
+
+
+mode -
+
+1. 'r' - open for writing
+2. 'w' - open for writing
+3. 'a' - open for appending (end me kuch jodna chahte hai)
+4. '+' - for update
+5. 'rb' - read in binary 
+6. 'rt' - read in text  (default)
+
+
+with statement - 
+
+isme file automatically close ho jayegi
+
+ex. - with open("14_file_I_O/practice.txt", "r") as f:
+
+
+
+
+
+
+
+
+
+
+*****8***8
+study topic -
+1. magic method
+2. time module - methods
